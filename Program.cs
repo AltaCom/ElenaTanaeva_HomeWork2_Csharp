@@ -1,15 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-// Домашняя работа 2
+﻿// Домашняя работа 2
 /*
 Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
 456 -> 5
 782 -> 8
 918 -> 1
+*/
 
-
+/*
 int DigitThreeNum(int num)
 {
     int num2 = num / 10;
@@ -24,9 +22,7 @@ int digit = Convert.ToInt32(Console.ReadLine());
 
 int number = DigitThreeNum(digit);
 Console.WriteLine($"The second digit of {digit} is {number}");
-
 */
-
 
 /*
 Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
@@ -57,10 +53,7 @@ int number1 = ThirdDigit(number);
     if (number < 100) Console.WriteLine("There's no third digit");
     else Console.WriteLine($"The third digit is {number1}");
 
-
 */
-
-
 
 /*
 Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
